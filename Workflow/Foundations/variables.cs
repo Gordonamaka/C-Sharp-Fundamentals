@@ -18,7 +18,7 @@ string firstName;
 firstName = "Tasha";
 Console.WriteLine(firstName);
 
-Variables seem to have get/set properties like let in javascript:
+** Variables seem to have get/set properties like let in javascript:
 
 You must assign (set) a value to a variable before you can retrieve (get) a value from a variable.
 You can initialize a variable by assigning a value to the variable at the point of declaration.
