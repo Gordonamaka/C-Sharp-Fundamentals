@@ -11,6 +11,8 @@ int gameScore;
 
 decimal particlesPerMillion;
 
+float particlesPerBillion;
+
 bool processedCustomer;
 
 Variable Declaration
@@ -43,6 +45,7 @@ Using data types allow the data types to be used as a getter/setter, var does no
 
 Variable concatenation works the same way (example below):
 */
+
 var bonjour = "Hello, ";
 var name = "Bob! ";
 var sentence = "You have ";
@@ -53,6 +56,7 @@ var three = 3;
 var thirtyPoint = 34.4;
 
 Console.Write(bonjour + name + sentence + three + message + temperature + thirtyPoint + end);
+
 // Output: Hello, Bob! You have 3 messages in your inbox. The temperature is 34.4 celsius.
 
 // Alternative:
@@ -67,3 +71,18 @@ Console.Write(messages);
 Console.Write(" messages in your inbox. The temperature is ");
 Console.Write(temperature);
 Console.Write(" celsius.");
+
+
+/* 
+
+Variable Name Rules 
+
+Variable names can contain alphanumeric characters and the underscore (_) character. Special characters like the pound #, the dash -, and the dollar sign $ are not allowed.
+
+Variable names must begin with an alphabetical letter or an underscore, not a number. Using an underscore character to start a variable name is typically reserved for private instance fields.
+
+Variable names must NOT be a C# keyword. For example, these variable name declarations won't be allowed: float float; or string string;.
+
+Variable names are case-sensitive, meaning that string MyValue; and string myValue; are two different variables.
+
+*/
